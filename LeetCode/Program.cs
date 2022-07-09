@@ -1,1 +1,3 @@
-﻿Console.WriteLine("Hello World");
+﻿using LeetCode;
+
+_1_Two_Sum.Run();
