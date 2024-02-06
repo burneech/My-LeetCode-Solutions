@@ -30,7 +30,7 @@
         {
             if (string.IsNullOrEmpty(s)) return 0;
 
-            List<char> substringLetters = new List<char>{s[0]}; // Here we will temprorary store our characters that form each substring.
+            List<char> substringLetters = new List<char>{s[0]}; // Here we will temporary store our characters that form each substring.
             List<int> substringLengths = new List<int>();       // Here we will memorize the length of each substring that we encounter.
 
             for (int i = 1; i < s.Length; i++)
